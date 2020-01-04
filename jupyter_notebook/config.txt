@@ -1,0 +1,11 @@
+pip install jupyterthemes
+jt -t oceans16 -fs 16 -N
+
+jupyter notebook --generate-config
+
+.container { width:95% !important; }
+div.output pre{
+    font-family: Consolas;
+    font-size: 12pt;
+}
+###find 2th codemirror pre line / need to modify font ( monospace to consolas)
