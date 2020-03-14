@@ -1,0 +1,1 @@
+pytesseract 와 cv2 전처리 연습 contours cnts
